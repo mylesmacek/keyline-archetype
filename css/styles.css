@@ -405,7 +405,7 @@ section { padding: 7rem 4rem; }
 
 .addon-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -854,7 +854,7 @@ footer {
   .pricing-grid { grid-template-columns: 1fr; }
   .pricing-addons-header { flex-direction: column; gap: 0.5rem; }
   .pricing-addons-sub { text-align: left; max-width: 100%; }
-  .addon-grid { grid-template-columns: 1fr 1fr; }
+  .addon-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
   .step { border-bottom: 0.5px solid var(--border); }
