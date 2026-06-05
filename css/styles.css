@@ -331,7 +331,7 @@ section { padding: 7rem 4rem; }
 
 .service-card {
   background: var(--cream);
-  border: 0.5px solid var(--ink);
+  border: 0.5px solid var(--border);
   border-radius: 4px;
   padding: 2.5rem;
   display: flex;
