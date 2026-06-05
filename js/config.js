@@ -158,6 +158,56 @@ const SITE = {
         cta: "Let's talk",
       },
     ],
+    addons: [
+      {
+        name: "Social Media Content",
+        price: "$1,800",
+        period: "per month",
+        desc: "Consistent, on-brand content for your social channels — written, planned, and ready to post.",
+        includes: [
+          "12 posts per month",
+          "Captions written in your brand voice",
+          "Monthly content calendar",
+          "Hashtag & platform strategy",
+        ],
+      },
+      {
+        name: "Email Marketing",
+        price: "$950",
+        period: "per month",
+        desc: "Two campaigns a month crafted to get your audience to open, read, and act.",
+        includes: [
+          "2 campaigns per month",
+          "Subject line & full body copy",
+          "List segmentation guidance",
+          "Performance summary",
+        ],
+      },
+      {
+        name: "Web Design & Build",
+        price: "$3,500",
+        period: "one-time",
+        desc: "A clean, fast website that looks like your brand and says exactly what it needs to.",
+        includes: [
+          "Up to 5 pages",
+          "Brand-aligned design",
+          "Copywriting included",
+          "Mobile responsive",
+        ],
+      },
+      {
+        name: "Brand Copy & Strategy",
+        price: "$2,200",
+        period: "one-time",
+        desc: "The words and framework your brand needs to sound consistent everywhere it shows up.",
+        includes: [
+          "Brand voice & tone guide",
+          "Core messaging framework",
+          "Website copy audit",
+          "Tagline & positioning",
+        ],
+      },
+    ],
   },
 
   // ── TESTIMONIALS ────────────────────────────────────────────────────

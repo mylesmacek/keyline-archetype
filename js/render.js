@@ -187,6 +187,20 @@ const Render = (() => {
       `;
     }).join("");
 
+    const addons = p.addons.map(a => {
+      const items = a.includes.map(i => `<li>${i}</li>`).join("");
+      return `
+        <div class="addon-card">
+          <div class="gold-line"></div>
+          <h3 class="addon-name">${a.name}</h3>
+          <div class="addon-price">${a.price} <span>${a.period}</span></div>
+          <p class="addon-desc">${a.desc}</p>
+          <ul class="addon-features">${items}</ul>
+          <a href="contact.html" class="btn-pricing btn-pricing-outline">Get started</a>
+        </div>
+      `;
+    }).join("");
+
     return `
       <section id="pricing">
         <div class="pricing-inner">
@@ -197,6 +211,13 @@ const Render = (() => {
             <p class="section-body">${p.body}</p>
           </div>
           <div class="pricing-grid fade-up">${cards}</div>
+          <div class="pricing-addons fade-up">
+            <div class="pricing-addons-header">
+              <p class="section-eyebrow">À la carte</p>
+              <p class="pricing-addons-sub">Need just one service? Each can be scoped as a standalone engagement.</p>
+            </div>
+            <div class="addon-grid">${addons}</div>
+          </div>
         </div>
       </section>
     `;
