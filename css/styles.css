@@ -199,16 +199,25 @@ nav {
   margin-bottom: 1rem;
   max-width: 320px;
   margin-left: auto;
-  animation: floatUp 0.8s ease both;
+  animation: floatUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.4s;
 }
 
-.hero-stat-card:nth-child(2) { animation-delay: 0.15s; }
-.hero-stat-card:nth-child(3) { animation-delay: 0.3s; max-width: 260px; }
+.hero-stat-card:nth-child(2) { animation-delay: 0.55s; }
+.hero-stat-card:nth-child(3) { animation-delay: 0.7s; max-width: 260px; }
 
 @keyframes floatUp {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+.hero-left > * {
+  animation: floatUp 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.hero-left > *:nth-child(1) { animation-delay: 0.05s; }
+.hero-left > *:nth-child(2) { animation-delay: 0.2s; }
+.hero-left > *:nth-child(3) { animation-delay: 0.38s; }
+.hero-left > *:nth-child(4) { animation-delay: 0.52s; }
 
 .stat-label {
   font-size: 0.7rem;
@@ -713,8 +722,8 @@ footer {
 /* ── SCROLL ANIMATION ── */
 .fade-up {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transform: translateY(28px);
+  transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1), transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .fade-up.visible {
