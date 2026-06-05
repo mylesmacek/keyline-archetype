@@ -336,6 +336,8 @@ section { padding: 7rem 4rem; }
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -366,6 +368,7 @@ section { padding: 7rem 4rem; }
   height: 0.5px;
   background: var(--border);
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 
 .service-card-desc {
