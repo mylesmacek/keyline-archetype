@@ -133,7 +133,6 @@ const SITE = {
           "16 social media posts",
           "1 email campaign",
           "2 long-form brand articles",
-          "Website content updates",
           "Content calendar",
           "Monthly strategy call",
         ],
