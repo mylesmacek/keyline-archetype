@@ -518,14 +518,8 @@ section { padding: 7rem 4rem; }
 .btn-pricing-accent:hover { filter: brightness(0.9); }
 
 /* ── HOW IT WORKS ── */
-.how {
-  background: var(--ink);
-  color: var(--cream);
-}
-
-.how .section-title { color: var(--cream); }
 .how .section-eyebrow { color: var(--accent); }
-.how .section-body { color: rgba(237,233,225,0.55); }
+.how .section-body { color: var(--ink-light); }
 
 .how-inner { max-width: 1200px; margin: 0 auto; }
 
@@ -545,7 +539,7 @@ section { padding: 7rem 4rem; }
 
 .step {
   padding: 2.5rem 2rem;
-  border-right: 0.5px solid rgba(237,233,225,0.08);
+  border-right: 0.5px solid var(--border);
 }
 
 .step:last-child { border-right: none; }
@@ -563,14 +557,14 @@ section { padding: 7rem 4rem; }
   font-family: var(--font-serif);
   font-size: 1.3rem;
   font-weight: 300;
-  color: var(--cream);
+  color: var(--ink);
   margin-bottom: 0.75rem;
 }
 
 .step-desc {
   font-size: 0.82rem;
   font-weight: 300;
-  color: rgba(237,233,225,0.5);
+  color: var(--ink-light);
   line-height: 1.8;
 }
 
@@ -763,7 +757,7 @@ footer {
   .pricing-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
-  .step { border-bottom: 0.5px solid rgba(237,233,225,0.08); }
+  .step { border-bottom: 0.5px solid var(--border); }
   footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
   .footer-links { flex-wrap: wrap; justify-content: center; }
   .form-row { grid-template-columns: 1fr; }
