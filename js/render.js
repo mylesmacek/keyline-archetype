@@ -117,14 +117,12 @@ const Render = (() => {
 
   function services(s) {
     const items = s.items.map(item => `
-      <div class="service-row">
-        <div class="service-row-left">
-          <span class="service-num">${item.num}</span>
-          <h3 class="service-name">${item.name.join(" ")}</h3>
-        </div>
-        <div class="service-row-right">
-          <p class="service-desc">${item.desc}</p>
-        </div>
+      <div class="service-card fade-up">
+        <div class="service-card-num">${item.num}</div>
+        <h3 class="service-card-name">${item.name.join("<br/>")}</h3>
+        <div class="service-card-divider"></div>
+        <p class="service-card-desc">${item.desc}</p>
+        <a href="contact.html" class="service-card-link">Get started ${arrowSVG}</a>
       </div>
     `).join("");
 
@@ -137,7 +135,7 @@ const Render = (() => {
             </div>
             <p class="section-body">${s.body}</p>
           </div>
-          <div class="services-list">${items}</div>
+          <div class="services-cards">${items}</div>
         </div>
       </section>
     `;
