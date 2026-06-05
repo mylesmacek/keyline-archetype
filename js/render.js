@@ -55,7 +55,7 @@ const Render = (() => {
         <a href="#" class="nav-logo">${brand.name}<span>${brand.accentChar}</span></a>
         <ul class="nav-links">
           ${linkItems}
-          <li><a href="#contact" class="nav-cta">Get started</a></li>
+          <li><a href="index.html#contact" class="nav-cta">Get started</a></li>
         </ul>
       </nav>
     `;
@@ -186,7 +186,7 @@ const Render = (() => {
           <div class="pricing-period">${plan.period}</div>
           <div class="pricing-divider"></div>
           <ul class="pricing-features">${features}</ul>
-          <a href="#contact" class="btn-pricing ${btnClass}">${plan.cta}</a>
+          <a href="index.html#contact" class="btn-pricing ${btnClass}">${plan.cta}</a>
         </div>
       `;
     }).join("");
@@ -266,28 +266,33 @@ const Render = (() => {
   }
 
   // ── MOUNT ──────────────────────────────────────────────────────────
-  // Assembles all sections and injects into <body>
+  // opts: { sections: [...keys], title: 'Page Title' }
+  // If sections is omitted, all sections are rendered.
 
-  function mount(config) {
+  function mount(config, opts) {
+    const options = opts || {};
+
     injectTheme(config.theme);
 
-    document.title = `${config.brand.name} Studio — ${config.brand.tagline}`;
+    document.title = options.title
+      ? `${config.brand.name} Studio — ${options.title}`
+      : `${config.brand.name} Studio — ${config.brand.tagline}`;
 
-    const sections = [
-      nav(config.brand, config.nav),
-      hero(config.hero),
-      marquee(config.marquee),
-      services(config.services),
-      process(config.process),
-      pricing(config.pricing),
-      testimonial(config.testimonial),
-      cta(config.cta, config.brand),
-      footer(config.brand, config.footer),
-    ].join("\n");
+    const builders = {
+      nav:         () => nav(config.brand, config.nav),
+      hero:        () => hero(config.hero),
+      marquee:     () => marquee(config.marquee),
+      services:    () => services(config.services),
+      process:     () => process(config.process),
+      pricing:     () => pricing(config.pricing),
+      testimonial: () => testimonial(config.testimonial),
+      cta:         () => cta(config.cta, config.brand),
+      footer:      () => footer(config.brand, config.footer),
+    };
 
-    document.body.innerHTML = sections;
+    const keys = options.sections || Object.keys(builders);
+    document.body.innerHTML = keys.map(k => builders[k]()).join("\n");
 
-    // Init after DOM is set
     requestAnimationFrame(initScrollAnimations);
   }
 

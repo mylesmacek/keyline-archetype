@@ -39,8 +39,8 @@ const SITE = {
     titleAccent: "results.",   // Rendered in italic accent color
     titleLine3: "Not tabs.",
     subtitle: "Baseline Studio delivers scroll-stopping social posts, newsletters, and blog content — refined by strategy and built for professionals who are too busy to write.",
-    ctaPrimary:  { label: "View packages",  href: "#pricing"  },
-    ctaSecondary:{ label: "See what we do", href: "#services" },
+    ctaPrimary:  { label: "View packages",  href: "pricing.html"  },
+    ctaSecondary:{ label: "See what we do", href: "services.html" },
     stats: [
       { label: "Avg. time saved per client",       value: "12", unit: "hrs", sub: "per month on content creation" },
       { label: "Content pieces delivered monthly", value: "20", unit: "+",  sub: "posts, emails & blog articles" },
@@ -193,16 +193,16 @@ const SITE = {
 
   // ── NAV ─────────────────────────────────────────────────────────────
   nav: [
-    { label: "Services", href: "#services" },
-    { label: "Process",  href: "#how"      },
-    { label: "Pricing",  href: "#pricing"  },
+    { label: "Services", href: "services.html" },
+    { label: "Process",  href: "process.html"  },
+    { label: "Pricing",  href: "pricing.html"  },
   ],
 
   // ── FOOTER ──────────────────────────────────────────────────────────
   footer: [
-    { label: "Services", href: "#services" },
-    { label: "Pricing",  href: "#pricing"  },
-    { label: "Contact",  href: "#contact"  },
+    { label: "Services", href: "services.html"     },
+    { label: "Pricing",  href: "pricing.html"      },
+    { label: "Contact",  href: "index.html#contact" },
   ],
 
 };
