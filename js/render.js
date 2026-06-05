@@ -242,9 +242,10 @@ const Render = (() => {
               <label for="service">Service interest</label>
               <select id="service" name="service">
                 <option value="">Select a service…</option>
-                <option value="social">Social &amp; Content</option>
-                <option value="email">Email &amp; Campaigns</option>
-                <option value="copy">Copy &amp; Strategy</option>
+                <option value="social">Social Media Content</option>
+                <option value="email">Email Marketing</option>
+                <option value="web">Web Design &amp; Build</option>
+                <option value="copy">Brand Copy &amp; Strategy</option>
                 <option value="all">Full package</option>
               </select>
             </div>

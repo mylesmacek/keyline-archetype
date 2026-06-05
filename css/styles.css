@@ -331,7 +331,7 @@ section { padding: 7rem 4rem; }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0;
   border: 0.5px solid var(--border);
 }
@@ -339,11 +339,13 @@ section { padding: 7rem 4rem; }
 .service-item {
   padding: 2.5rem;
   border-right: 0.5px solid var(--border);
+  border-bottom: 0.5px solid var(--border);
   transition: background 0.25s;
   cursor: default;
 }
 
-.service-item:last-child { border-right: none; }
+.service-item:nth-child(even)       { border-right: none; }
+.service-item:nth-last-child(-n+2)  { border-bottom: none; }
 .service-item:hover { background: var(--cream); }
 
 .service-num {
@@ -777,6 +779,9 @@ footer {
   .services-header { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .service-item { border-right: none; border-bottom: 0.5px solid var(--border); }
+  .service-item:nth-child(even) { border-right: none; }
+  .service-item:nth-last-child(-n+2) { border-bottom: 0.5px solid var(--border); }
+  .service-item:last-child { border-bottom: none; }
   .pricing-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
