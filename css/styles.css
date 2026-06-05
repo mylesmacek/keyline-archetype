@@ -548,7 +548,8 @@ section { padding: 7rem 4rem; }
   font-family: var(--font-serif);
   font-size: 4rem;
   font-weight: 300;
-  color: rgba(191,59,42,0.15);
+  color: transparent;
+  -webkit-text-stroke: 1px var(--accent);
   line-height: 1;
   margin-bottom: 1.5rem;
 }
