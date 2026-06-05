@@ -407,6 +407,9 @@ section { padding: 7rem 4rem; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .addon-card {
