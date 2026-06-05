@@ -9,7 +9,7 @@ const SITE = {
 
   // ── BRAND ──────────────────────────────────────────────────────────
   brand: {
-    name: "Keyline",          // Displayed in nav + footer (accent char added automatically)
+    name: "Baseline",         // Displayed in nav + footer (accent char added automatically)
     accentChar: ".",          // The styled accent after the name
     tagline: "Content Studio for Modern Professionals",
     email: "hello@keylinestudio.com",
@@ -38,7 +38,7 @@ const SITE = {
     titleLine2: "drives",
     titleAccent: "results.",   // Rendered in italic accent color
     titleLine3: "Not tabs.",
-    subtitle: "Keyline Studio delivers scroll-stopping social posts, newsletters, and blog content — refined by strategy and built for professionals who are too busy to write.",
+    subtitle: "Baseline Studio delivers scroll-stopping social posts, newsletters, and blog content — refined by strategy and built for professionals who are too busy to write.",
     ctaPrimary:  { label: "View packages",  href: "#pricing"  },
     ctaSecondary:{ label: "See what we do", href: "#services" },
     stats: [
