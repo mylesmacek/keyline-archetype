@@ -143,7 +143,6 @@ const SITE = {
           "1 custom landing page build",
           "4-week content calendar",
           "12 social media posts",
-          "2 email campaigns",
           "2 strategy sessions",
         ],
         cta: "Start a sprint",
@@ -156,7 +155,7 @@ const SITE = {
         featuredLabel: "Most popular",
         features: [
           "16 social media posts",
-          "3 email campaigns",
+          "1 email campaign",
           "2 long-form brand articles",
           "Website content updates",
           "Content calendar",
@@ -172,7 +171,7 @@ const SITE = {
         featured: false,
         features: [
           "24 social media posts",
-          "5 email campaigns",
+          "3 email campaigns",
           "4 long-form brand articles",
           "Full website design & build included",
           "Quarterly brand messaging audit",
