@@ -428,7 +428,7 @@ section { padding: 7rem 4rem; }
   margin-bottom: 1rem;
 }
 
-.pricing-card.featured .pricing-tier { color: rgba(247,244,239,0.5); }
+.pricing-card.featured .pricing-tier { color: rgba(237,233,225,0.5); }
 
 .pricing-price {
   font-family: var(--font-serif);
@@ -447,7 +447,7 @@ section { padding: 7rem 4rem; }
   margin-bottom: 2rem;
 }
 
-.pricing-card.featured .pricing-period { color: rgba(247,244,239,0.5); }
+.pricing-card.featured .pricing-period { color: rgba(237,233,225,0.5); }
 
 .pricing-divider {
   height: 0.5px;
@@ -455,7 +455,7 @@ section { padding: 7rem 4rem; }
   margin-bottom: 1.75rem;
 }
 
-.pricing-card.featured .pricing-divider { background: rgba(247,244,239,0.12); }
+.pricing-card.featured .pricing-divider { background: rgba(237,233,225,0.12); }
 
 .pricing-features {
   list-style: none;
@@ -475,7 +475,7 @@ section { padding: 7rem 4rem; }
   line-height: 1.5;
 }
 
-.pricing-card.featured .pricing-features li { color: rgba(247,244,239,0.7); }
+.pricing-card.featured .pricing-features li { color: rgba(237,233,225,0.7); }
 
 .pricing-features li::before {
   content: '';
@@ -525,7 +525,7 @@ section { padding: 7rem 4rem; }
 
 .how .section-title { color: var(--cream); }
 .how .section-eyebrow { color: var(--accent); }
-.how .section-body { color: rgba(247,244,239,0.55); }
+.how .section-body { color: rgba(237,233,225,0.55); }
 
 .how-inner { max-width: 1200px; margin: 0 auto; }
 
@@ -763,7 +763,7 @@ footer {
   .pricing-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
-  .step { border-bottom: 0.5px solid rgba(247,244,239,0.08); }
+  .step { border-bottom: 0.5px solid rgba(237,233,225,0.08); }
   footer { flex-direction: column; gap: 1rem; text-align: center; padding: 2rem 1.5rem; }
   .footer-links { flex-wrap: wrap; justify-content: center; }
   .form-row { grid-template-columns: 1fr; }
