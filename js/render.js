@@ -52,10 +52,10 @@ const Render = (() => {
     ).join("");
     return `
       <nav>
-        <a href="#" class="nav-logo">${brand.name}<span>${brand.accentChar}</span></a>
+        <a href="index.html" class="nav-logo">${brand.name}<span>${brand.accentChar}</span></a>
         <ul class="nav-links">
           ${linkItems}
-          <li><a href="index.html#contact" class="nav-cta">Get started</a></li>
+          <li><a href="contact.html" class="nav-cta">Get started</a></li>
         </ul>
       </nav>
     `;
@@ -186,7 +186,7 @@ const Render = (() => {
           <div class="pricing-period">${plan.period}</div>
           <div class="pricing-divider"></div>
           <ul class="pricing-features">${features}</ul>
-          <a href="index.html#contact" class="btn-pricing ${btnClass}">${plan.cta}</a>
+          <a href="contact.html" class="btn-pricing ${btnClass}">${plan.cta}</a>
         </div>
       `;
     }).join("");
@@ -214,6 +214,51 @@ const Render = (() => {
     `;
   }
 
+  // ── CONSULTATION FORM ──────────────────────────────────────────────
+
+  function consultation(brand) {
+    return `
+      <section class="consultation">
+        <div class="consultation-inner fade-up">
+          <p class="section-eyebrow">Free consultation</p>
+          <h1 class="section-title">Book your<br/><em>free call.</em></h1>
+          <p class="section-body">Fill in the form below and we'll reach out within one business day to schedule your 20-minute strategy session.</p>
+          <form action="mailto:${brand.email}" method="POST" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service…</option>
+                <option value="social">Social Content</option>
+                <option value="email">Email Newsletters</option>
+                <option value="blog">Blog &amp; SEO Copy</option>
+                <option value="all">Full package</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" placeholder="Tell us about your brand, goals, or current challenges…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit">Send my request</button>
+          </form>
+        </div>
+      </section>
+    `;
+  }
+
   // ── CTA ────────────────────────────────────────────────────────────
 
   function cta(c, brand) {
@@ -225,7 +270,7 @@ const Render = (() => {
           <h2 class="section-title">${c.titleLine1}<br/><em>${c.titleAccent}</em></h2>
           <p class="section-body">${c.body}</p>
           <div class="cta-actions">
-            <a href="mailto:${email}" class="btn-primary">${c.ctaPrimary.label}</a>
+            <a href="contact.html" class="btn-primary">${c.ctaPrimary.label}</a>
             <a href="mailto:${email}" class="btn-ghost">
               ${email} ${arrowSVG}
             </a>
@@ -279,15 +324,16 @@ const Render = (() => {
       : `${config.brand.name} Studio — ${config.brand.tagline}`;
 
     const builders = {
-      nav:         () => nav(config.brand, config.nav),
-      hero:        () => hero(config.hero),
-      marquee:     () => marquee(config.marquee),
-      services:    () => services(config.services),
-      process:     () => process(config.process),
-      pricing:     () => pricing(config.pricing),
-      testimonial: () => testimonial(config.testimonial),
-      cta:         () => cta(config.cta, config.brand),
-      footer:      () => footer(config.brand, config.footer),
+      nav:          () => nav(config.brand, config.nav),
+      hero:         () => hero(config.hero),
+      marquee:      () => marquee(config.marquee),
+      services:     () => services(config.services),
+      process:      () => process(config.process),
+      pricing:      () => pricing(config.pricing),
+      testimonial:  () => testimonial(config.testimonial),
+      cta:          () => cta(config.cta, config.brand),
+      consultation: () => consultation(config.brand),
+      footer:       () => footer(config.brand, config.footer),
     };
 
     const keys = options.sections || Object.keys(builders);

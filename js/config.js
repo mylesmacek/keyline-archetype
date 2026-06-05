@@ -202,7 +202,7 @@ const SITE = {
   footer: [
     { label: "Services", href: "services.html"     },
     { label: "Pricing",  href: "pricing.html"      },
-    { label: "Contact",  href: "index.html#contact" },
+    { label: "Contact",  href: "contact.html" },
   ],
 
 };
