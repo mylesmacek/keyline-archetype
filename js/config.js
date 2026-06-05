@@ -97,7 +97,7 @@ const SITE = {
     steps: [
       { num: "01", title: "Brand deep-dive",  desc: "A 20-minute call to capture your brand voice, audience, positioning, and goals. We study your world before we write a word." },
       { num: "02", title: "Expert draft",     desc: "Our writers and strategists produce your full month of content in 48 hours, built around your brand's unique voice and tone." },
-      { num: "03", title: "Review & refine",  desc: "You review a clean content deck. We revise until it's right — unlimited rounds on all plans, no extra charges." },
+      { num: "03", title: "Review & refine",  desc: "You review a clean content deck and tell us what lands and what doesn't. We refine until every piece feels right." },
       { num: "04", title: "Publish & grow",   desc: "Content goes live. We track what resonates and refine your strategy every month based on real performance data." },
     ],
   },
