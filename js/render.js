@@ -213,7 +213,7 @@ const Render = (() => {
           <div class="pricing-grid fade-up">${cards}</div>
           <div class="pricing-addons fade-up">
             <div class="pricing-addons-header">
-              <p class="section-eyebrow">À la carte</p>
+              <p class="section-eyebrow">Standalone services</p>
               <p class="pricing-addons-sub">Need just one service? Each can be scoped as a standalone engagement.</p>
             </div>
             <div class="addon-grid">${addons}</div>
