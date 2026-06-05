@@ -27,7 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 4rem;
-  background: rgba(247,244,239,0.85);
+  background: rgba(237,233,225,0.85);
   backdrop-filter: blur(12px);
   border-bottom: 0.5px solid var(--border);
 }
@@ -343,7 +343,7 @@ section { padding: 7rem 4rem; }
 
 .service-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 48px rgba(26,24,20,0.07);
+  box-shadow: 0 16px 48px rgba(16,14,11,0.07);
 }
 
 .service-card-num {
@@ -399,7 +399,7 @@ section { padding: 7rem 4rem; }
 
 .pricing-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 48px rgba(26,24,20,0.07);
+  box-shadow: 0 16px 48px rgba(16,14,11,0.07);
 }
 
 .pricing-card.featured {
@@ -545,7 +545,7 @@ section { padding: 7rem 4rem; }
 
 .step {
   padding: 2.5rem 2rem;
-  border-right: 0.5px solid rgba(247,244,239,0.08);
+  border-right: 0.5px solid rgba(237,233,225,0.08);
 }
 
 .step:last-child { border-right: none; }
@@ -554,7 +554,7 @@ section { padding: 7rem 4rem; }
   font-family: var(--font-serif);
   font-size: 4rem;
   font-weight: 300;
-  color: rgba(184,150,90,0.2);
+  color: rgba(191,59,42,0.15);
   line-height: 1;
   margin-bottom: 1.5rem;
 }
@@ -570,7 +570,7 @@ section { padding: 7rem 4rem; }
 .step-desc {
   font-size: 0.82rem;
   font-weight: 300;
-  color: rgba(247,244,239,0.5);
+  color: rgba(237,233,225,0.5);
   line-height: 1.8;
 }
 

@@ -18,12 +18,12 @@ const SITE = {
 
   // ── THEME ───────────────────────────────────────────────────────────
   theme: {
-    cream:      "#F7F4EF",
-    ink:        "#1A1814",
-    inkLight:   "#6B6760",
-    accent:     "#B8965A",
-    accentLight:"#E8D9BF",
-    white:      "#FFFFFF",
+    cream:      "#EDE9E1",
+    ink:        "#100E0B",
+    inkLight:   "#615B53",
+    accent:     "#BF3B2A",
+    accentLight:"#F0CEC9",
+    white:      "#FAF9F6",
     fontSerif:  "Cormorant Garamond",
     fontSans:   "DM Sans",
     fontsUrl:   "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap",

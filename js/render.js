@@ -34,7 +34,7 @@ const Render = (() => {
         --accent:      ${theme.accent};
         --accent-light:${theme.accentLight};
         --white:       ${theme.white};
-        --border:      rgba(26,24,20,0.10);
+        --border:      rgba(16,14,11,0.10);
         --font-serif:  '${theme.fontSerif}', Georgia, serif;
         --font-sans:   '${theme.fontSans}', sans-serif;
       }
