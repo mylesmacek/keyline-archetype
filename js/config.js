@@ -131,7 +131,7 @@ const SITE = {
         featuredLabel: "Most popular",
         features: [
           "16 social media posts",
-          "1 email campaign",
+          "2 email campaigns",
           "2 long-form brand articles",
           "Content calendar",
           "Monthly strategy call",
@@ -147,7 +147,7 @@ const SITE = {
           "24 social media posts",
           "3 email campaigns",
           "4 long-form brand articles",
-          "Website design, build & content upkeep",
+          "Website build or refresh & ongoing copy upkeep",
           "Monthly performance reporting",
           "Dedicated content strategist",
           "Weekly strategy sessions",
@@ -163,7 +163,7 @@ const SITE = {
         desc: "Consistent, on-brand content for your social channels — written, planned, and ready to post.",
         includes: [
           "12 posts per month",
-          "Captions written in your brand voice",
+          "Post copy & captions in your brand voice",
           "Monthly content calendar",
           "Hashtag & platform strategy",
         ],
@@ -176,7 +176,7 @@ const SITE = {
         includes: [
           "2 campaigns per month",
           "Subject line & full body copy",
-          "List segmentation guidance",
+          "Audience segmentation strategy",
           "Performance summary",
         ],
       },
@@ -189,7 +189,7 @@ const SITE = {
           "Up to 5 pages",
           "Brand-aligned design",
           "Copywriting included",
-          "Mobile responsive",
+          "SEO-ready page structure",
         ],
       },
       {
@@ -200,7 +200,7 @@ const SITE = {
         includes: [
           "Brand voice & tone guide",
           "Core messaging framework",
-          "Website copy audit",
+          "Homepage & key page copy",
           "Tagline & positioning",
         ],
       },
