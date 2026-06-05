@@ -319,17 +319,21 @@ section { padding: 7rem 4rem; }
   border-bottom: 0.5px solid var(--border);
 }
 
+section.services { padding: 5.5rem 4rem 3rem; }
+
 .services-inner { max-width: 1200px; margin: 0 auto; }
 
 .services-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
   border-bottom: 0.5px solid var(--border);
   align-items: end;
 }
+
+.services .section-title { font-size: clamp(1.6rem, 2.5vw, 2.4rem); }
 
 .services-list { width: 100%; }
 
@@ -337,7 +341,7 @@ section { padding: 7rem 4rem; }
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 4rem;
-  padding: 3.5rem 0;
+  padding: 1.5rem 0;
   border-bottom: 0.5px solid var(--border);
   align-items: center;
 }
@@ -347,7 +351,7 @@ section { padding: 7rem 4rem; }
 .service-row-left {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .service-num {
@@ -360,17 +364,17 @@ section { padding: 7rem 4rem; }
 
 .service-name {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: var(--ink);
   line-height: 1.15;
 }
 
 .service-desc {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 300;
   color: var(--ink-light);
-  line-height: 1.9;
+  line-height: 1.8;
   max-width: 520px;
 }
 
@@ -754,9 +758,9 @@ footer {
   .hero-left { padding: 2rem 1.5rem; }
   .hero-right { display: none; }
   section { padding: 4rem 1.5rem; }
-  .services-header { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2rem; padding-bottom: 2rem; }
-  .service-row { grid-template-columns: 1fr; gap: 1rem; padding: 2.5rem 0; }
-  .service-name { font-size: 1.6rem; }
+  .services-header { grid-template-columns: 1fr; gap: 1rem; margin-bottom: 1rem; padding-bottom: 1rem; }
+  .service-row { grid-template-columns: 1fr; gap: 0.75rem; padding: 1.5rem 0; }
+  section.services { padding: 5rem 1.5rem 2.5rem; }
   .pricing-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }

@@ -117,7 +117,7 @@ const Render = (() => {
 
   function services(s) {
     const items = s.items.map(item => `
-      <div class="service-row fade-up">
+      <div class="service-row">
         <div class="service-row-left">
           <span class="service-num">${item.num}</span>
           <h3 class="service-name">${item.name.join(" ")}</h3>
