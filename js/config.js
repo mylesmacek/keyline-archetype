@@ -159,12 +159,34 @@ const SITE = {
     ],
   },
 
-  // ── TESTIMONIAL ─────────────────────────────────────────────────────
-  testimonial: {
-    quote: "We went from posting once a month to having a full content calendar. Our community grew 40% and our emails actually get replies now.",
-    author: "Marcus R.",
-    role: "Founder, DTC Lifestyle Brand",
-  },
+  // ── TESTIMONIALS ────────────────────────────────────────────────────
+  testimonials: [
+    {
+      quote: "We went from posting once a month to having a full content calendar. Our community grew 40% and our emails actually get replies now.",
+      author: "Marcus R.",
+      role: "Founder, DTC Lifestyle Brand",
+    },
+    {
+      quote: "Baseline took the brand voice we'd been trying to nail for two years and made it feel effortless. Every piece of content sounds exactly like us.",
+      author: "Priya S.",
+      role: "Co-founder, Wellness Brand",
+    },
+    {
+      quote: "Our open rates went from 18% to 41% in three months. The emails don't feel like marketing — they feel like something worth reading.",
+      author: "Daniel M.",
+      role: "CEO, B2B SaaS",
+    },
+    {
+      quote: "I was spending 10 hours a week on content that wasn't converting. Now I spend zero and the results are better than anything I was producing myself.",
+      author: "Lena K.",
+      role: "Creative Director, Fashion Label",
+    },
+    {
+      quote: "The onboarding call alone was worth it. They understood our audience better after 20 minutes than most agencies do after a month.",
+      author: "James O.",
+      role: "Head of Marketing, Consumer Fintech",
+    },
+  ],
 
   // ── CTA / CONTACT ───────────────────────────────────────────────────
   cta: {

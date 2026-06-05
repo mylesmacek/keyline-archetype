@@ -327,7 +327,7 @@ const Render = (() => {
       services:     () => services(config.services),
       process:      () => process(config.process),
       pricing:      () => pricing(config.pricing),
-      testimonial:  () => testimonial(config.testimonial),
+      testimonial:  () => { const pool = config.testimonials || [config.testimonial]; return testimonial(pool[Math.floor(Math.random() * pool.length)]); },
       cta:          () => cta(config.cta, config.brand),
       consultation: () => consultation(config.brand),
       footer:       () => footer(config.brand, config.footer),
