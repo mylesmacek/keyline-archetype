@@ -116,17 +116,17 @@ const Render = (() => {
   // ── SERVICES ───────────────────────────────────────────────────────
 
   function services(s) {
-    const items = s.items.map(item => {
-      const includes = item.includes.map(i => `<li>${i}</li>`).join("");
-      return `
-        <div class="service-item">
-          <div class="service-num">${item.num}</div>
-          <h3 class="service-name">${item.name.join("<br/>")}</h3>
-          <p class="service-desc">${item.desc}</p>
-          <ul class="service-includes">${includes}</ul>
+    const items = s.items.map(item => `
+      <div class="service-row fade-up">
+        <div class="service-row-left">
+          <span class="service-num">${item.num}</span>
+          <h3 class="service-name">${item.name.join(" ")}</h3>
         </div>
-      `;
-    }).join("");
+        <div class="service-row-right">
+          <p class="service-desc">${item.desc}</p>
+        </div>
+      </div>
+    `).join("");
 
     return `
       <section class="services" id="services">
@@ -137,7 +137,7 @@ const Render = (() => {
             </div>
             <p class="section-body">${s.body}</p>
           </div>
-          <div class="services-grid fade-up">${items}</div>
+          <div class="services-list">${items}</div>
         </div>
       </section>
     `;
