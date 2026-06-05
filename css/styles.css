@@ -405,7 +405,8 @@ section { padding: 7rem 4rem; }
 
 .addon-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 340px));
+  justify-content: center;
   gap: 1.5rem;
 }
 
