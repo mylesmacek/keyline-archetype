@@ -12,7 +12,7 @@ const SITE = {
     name: "Baseline",         // Displayed in nav + footer (accent char added automatically)
     accentChar: ".",          // The styled accent after the name
     tagline: "Content Studio for Modern Professionals",
-    email: "hello@keylinestudio.com",
+    email: "hello@baselinestudio.com",
     year: "2025",
   },
 
