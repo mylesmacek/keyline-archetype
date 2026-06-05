@@ -389,9 +389,7 @@ section { padding: 7rem 4rem; }
 }
 
 .pricing-addons-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  text-align: center;
   margin-bottom: 2.5rem;
 }
 
@@ -399,8 +397,7 @@ section { padding: 7rem 4rem; }
   font-size: 0.85rem;
   font-weight: 300;
   color: var(--ink-light);
-  max-width: 380px;
-  text-align: right;
+  margin-top: 0.5rem;
 }
 
 .addon-grid {
@@ -855,8 +852,6 @@ footer {
   .service-col { border-right: none; border-bottom: 0.5px solid var(--border); }
   .service-col:last-child { border-bottom: none; }
   .pricing-grid { grid-template-columns: 1fr; }
-  .pricing-addons-header { flex-direction: column; gap: 0.5rem; }
-  .pricing-addons-sub { text-align: left; max-width: 100%; }
   .addon-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
