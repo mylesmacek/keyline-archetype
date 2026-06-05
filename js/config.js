@@ -11,7 +11,7 @@ const SITE = {
   brand: {
     name: "Keyline",          // Displayed in nav + footer (accent char added automatically)
     accentChar: ".",          // The styled accent after the name
-    tagline: "AI Content for Real Estate Professionals",
+    tagline: "Content Studio for Modern Professionals",
     email: "hello@keylinestudio.com",
     year: "2025",
   },
@@ -33,16 +33,16 @@ const SITE = {
 
   // ── HERO ────────────────────────────────────────────────────────────
   hero: {
-    eyebrow: "AI Content for Real Estate Professionals",
+    eyebrow: "Expert Content for Growing Brands",
     titleLine1: "Content that",
-    titleLine2: "closes",
-    titleAccent: "deals.",   // Rendered in italic accent color
+    titleLine2: "drives",
+    titleAccent: "results.",   // Rendered in italic accent color
     titleLine3: "Not tabs.",
-    subtitle: "Keyline Studio delivers scroll-stopping social posts, newsletters, and blog content — crafted by AI, refined by strategy, built for agents who are too busy to write.",
+    subtitle: "Keyline Studio delivers scroll-stopping social posts, newsletters, and blog content — refined by strategy and built for professionals who are too busy to write.",
     ctaPrimary:  { label: "View packages",  href: "#pricing"  },
     ctaSecondary:{ label: "See what we do", href: "#services" },
     stats: [
-      { label: "Avg. time saved per agent",       value: "12", unit: "hrs", sub: "per month on content creation" },
+      { label: "Avg. time saved per client",       value: "12", unit: "hrs", sub: "per month on content creation" },
       { label: "Content pieces delivered monthly", value: "20", unit: "+",  sub: "posts, emails & blog articles" },
       { label: "First draft turnaround",           value: "48", unit: "h",  sub: "from brief to delivery"       },
     ],
@@ -54,7 +54,7 @@ const SITE = {
     "Social Media Content",
     "Email Newsletters",
     "SEO Blog Posts",
-    "Listing Descriptions",
+    "Brand Storytelling",
     "Market Update Copy",
     "Lead Magnet Content",
   ],
@@ -64,13 +64,13 @@ const SITE = {
     eyebrow: "What we deliver",
     titleLine1: "Three pillars of",
     titleAccent: "presence.",
-    titlePrefix: "real estate",
+    titlePrefix: "your",
     body: "Every piece of content we produce is written to attract, nurture, and convert — not just fill a feed. We handle the words so you can handle the relationships.",
     items: [
       {
         num: "01",
         name: ["Social", "Content"],
-        desc: "Scroll-stopping captions, market tips, and story hooks tailored to your voice and local market — published consistently, every week.",
+        desc: "Scroll-stopping captions, timely tips, and story hooks tailored to your voice and audience — published consistently, every week.",
         includes: [
           "8 Instagram & Facebook posts/mo",
           "Custom hooks & CTAs",
@@ -81,18 +81,18 @@ const SITE = {
       {
         num: "02",
         name: ["Email", "Newsletters"],
-        desc: "Monthly market updates, buyer/seller guides, and nurture sequences that keep you top of mind with your entire database.",
+        desc: "Monthly updates, guides, and nurture sequences that keep you top of mind with your entire database.",
         includes: [
           "2 newsletters per month",
           "Subject line variations",
-          "Personalized to your market",
+          "Personalized to your audience",
           "CRM-ready formatting",
         ],
       },
       {
         num: "03",
         name: ["Blog &", "SEO Copy"],
-        desc: "Long-form articles and local guides that rank on Google and position you as the expert in your city — driving organic leads 24/7.",
+        desc: "Long-form articles and guides that rank on Google and position you as the expert in your field — driving organic leads 24/7.",
         includes: [
           "2 SEO blog posts per month",
           "Keyword research included",
@@ -112,7 +112,7 @@ const SITE = {
     body: "We handle everything from strategy to delivery. Your only job is a 15-minute onboarding call and a quick approval before we publish.",
     steps: [
       { num: "01", title: "Onboarding brief",   desc: "A 15-minute call to capture your voice, niche, target audience, and goals. No lengthy forms." },
-      { num: "02", title: "AI-powered draft",   desc: "We use advanced AI tools and real estate expertise to produce your full month of content in 48 hours." },
+      { num: "02", title: "Expert draft",       desc: "Our writers and strategists produce your full month of content in 48 hours, built around your brand." },
       { num: "03", title: "Review & refine",    desc: "You review a clean content deck. We revise until it's perfect — unlimited rounds on all plans." },
       { num: "04", title: "Publish & grow",     desc: "Content goes live. We track performance and refine each month based on what resonates with your audience." },
     ],
@@ -178,7 +178,7 @@ const SITE = {
   testimonial: {
     quote: "I used to spend every Sunday writing posts and newsletters. Now I spend that time with clients. My pipeline has never been fuller.",
     author: "Sarah K.",
-    role: "Luxury Real Estate Agent, Miami",
+    role: "Independent Professional, Miami",
   },
 
   // ── CTA / CONTACT ───────────────────────────────────────────────────
