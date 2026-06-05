@@ -111,7 +111,7 @@ const SITE = {
     plans: [
       {
         tier: "Brand Sprint",
-        price: "$4,000",
+        price: "$3,500",
         period: "one-time project",
         featured: false,
         features: [
@@ -125,7 +125,7 @@ const SITE = {
       },
       {
         tier: "Studio Retainer",
-        price: "$5,800",
+        price: "$4,500",
         period: "per month",
         featured: true,
         featuredLabel: "Most popular",
@@ -142,7 +142,7 @@ const SITE = {
       },
       {
         tier: "Brand Partner",
-        price: "$9,900",
+        price: "$7,500",
         period: "per month",
         featured: false,
         features: [
