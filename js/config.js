@@ -147,7 +147,7 @@ const SITE = {
           "24 social media posts",
           "3 email campaigns",
           "4 long-form brand articles",
-          "Monthly website copywriting",
+          "Website design, build & content upkeep",
           "Monthly performance reporting",
           "Dedicated content strategist",
           "Weekly strategy sessions",
