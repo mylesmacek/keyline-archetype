@@ -161,7 +161,7 @@ const SITE = {
     addons: [
       {
         name: "Social Media Content",
-        price: "$1,800",
+        price: "$2,200",
         period: "per month",
         desc: "Consistent, on-brand content for your social channels — written, planned, and ready to post.",
         includes: [
@@ -173,7 +173,7 @@ const SITE = {
       },
       {
         name: "Email Marketing",
-        price: "$950",
+        price: "$1,400",
         period: "per month",
         desc: "Two campaigns a month crafted to get your audience to open, read, and act.",
         includes: [
@@ -185,7 +185,7 @@ const SITE = {
       },
       {
         name: "Web Design & Build",
-        price: "$3,500",
+        price: "$4,800",
         period: "one-time",
         desc: "A clean, fast website that looks like your brand and says exactly what it needs to.",
         includes: [
@@ -197,7 +197,7 @@ const SITE = {
       },
       {
         name: "Brand Copy & Strategy",
-        price: "$2,200",
+        price: "$3,200",
         period: "one-time",
         desc: "The words and framework your brand needs to sound consistent everywhere it shows up.",
         includes: [
