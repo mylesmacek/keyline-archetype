@@ -561,18 +561,19 @@ section { padding: 7rem 4rem; }
   border-top: 0.5px solid var(--border);
   border-bottom: 0.5px solid var(--border);
   text-align: center;
+  padding: 4rem;
 }
 
-.testimonial-inner { max-width: 720px; margin: 0 auto; }
+.testimonial-inner { max-width: 600px; margin: 0 auto; }
 
 .testimonial-quote {
   font-family: var(--font-serif);
-  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  font-size: clamp(1.1rem, 1.8vw, 1.5rem);
   font-weight: 300;
   font-style: italic;
   color: var(--ink);
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .testimonial-author {
