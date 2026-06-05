@@ -189,9 +189,14 @@ const Render = (() => {
 
     return `
       <section id="pricing">
-        <div class="pricing fade-up">
-          ${eyebrowTitle(p.eyebrow, p.titleLine1, p.titleAccent, p.titlePrefix)}
-          <div class="pricing-grid">${cards}</div>
+        <div class="pricing-inner">
+          <div class="pricing-header fade-up">
+            <div>
+              ${eyebrowTitle(p.eyebrow, p.titleLine1, p.titleAccent, p.titlePrefix)}
+            </div>
+            <p class="section-body">${p.body}</p>
+          </div>
+          <div class="pricing-grid fade-up">${cards}</div>
         </div>
       </section>
     `;

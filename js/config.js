@@ -108,6 +108,7 @@ const SITE = {
     titleLine1: "Engagements built",
     titleAccent: "your brand.",
     titlePrefix: "around",
+    body: "Simple, transparent packages built around what your brand actually needs. No lock-in, no hidden fees — just consistent content that compounds.",
     plans: [
       {
         tier: "Brand Sprint",

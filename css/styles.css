@@ -366,13 +366,20 @@ section { padding: 7rem 4rem; }
 }
 
 /* ── PRICING ── */
-.pricing { max-width: 1200px; margin: 0 auto; }
+.pricing-inner { max-width: 1200px; margin: 0 auto; }
+
+.pricing-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: end;
+  margin-bottom: 4rem;
+}
 
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  margin-top: 4rem;
 }
 
 .pricing-card {
