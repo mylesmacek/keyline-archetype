@@ -122,7 +122,6 @@ const Render = (() => {
         <h3 class="service-card-name">${item.name.join("<br/>")}</h3>
         <div class="service-card-divider"></div>
         <p class="service-card-desc">${item.desc}</p>
-        <a href="contact.html" class="service-card-link">Get started ${arrowSVG}</a>
       </div>
     `).join("");
 

@@ -325,7 +325,7 @@ section { padding: 7rem 4rem; }
 
 .services-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 
@@ -373,26 +373,7 @@ section { padding: 7rem 4rem; }
   font-weight: 300;
   color: var(--ink-light);
   line-height: 1.8;
-  flex-grow: 1;
-  margin-bottom: 2rem;
 }
-
-.service-card-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.service-card-link:hover { color: var(--accent); }
-.service-card-link svg { transition: transform 0.2s; }
-.service-card-link:hover svg { transform: translateX(3px); }
 
 /* ── PRICING ── */
 .pricing { max-width: 1200px; margin: 0 auto; }
@@ -775,7 +756,7 @@ footer {
   .hero-right { display: none; }
   section { padding: 4rem 1.5rem; }
   .services-header { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2.5rem; }
-  .services-cards { grid-template-columns: 1fr; }
+  .services-cards { grid-template-columns: repeat(2, 1fr); }
   .pricing-grid { grid-template-columns: 1fr; }
   .how-header { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr 1fr; }
