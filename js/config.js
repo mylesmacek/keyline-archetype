@@ -192,18 +192,6 @@ const SITE = {
           "SEO-ready page structure",
         ],
       },
-      {
-        name: "Brand Copy & Strategy",
-        price: "$3,200",
-        period: "one-time",
-        desc: "The words and framework your brand needs to sound consistent everywhere it shows up.",
-        includes: [
-          "Brand voice & tone guide",
-          "Core messaging framework",
-          "Homepage & key page copy",
-          "Tagline & positioning",
-        ],
-      },
     ],
   },
 
